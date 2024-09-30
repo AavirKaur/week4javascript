@@ -1,0 +1,13 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",//This tells VS Code that you want to run a Node.js program
+            "request": "launch",//This tells VS Code to launch the program when you hit the "Run" button
+            "name": "Launch Program",//This is just a name for this configuration 
+            "program": "${workspaceFolder}/readFile.js",//This specifies that the program to run is the readFile.js file in your workspace
+            "runtimeExecutable": "C:/Program Files/nodejs/node.exe",//This tells VS Code where to find the Node.js program 
+            "console": "integratedTerminal"// This makes sure the program's output appears in the terminal inside VS Code.
+        }
+    ]
+}
